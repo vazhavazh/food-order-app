@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	@font-face {
+		font-family: "caveat-regular-400";
+		src: url("/src/assets/fonts/caveat-regular-400.woff2")format("woff2");
+		font-weight: 400;
+		font-display: swap;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: "caveat-medium-500";
+		src: url("/src/assets/fonts/caveat-medium-500.woff2")format("woff2");
+		font-weight: 500;
+		font-display: swap;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: "caveat-bold-700";
+		src: url("/src/assets/fonts/caveat-bold-700.woff2")format("woff2");
+		font-weight: 700;
+		font-display: swap;
+		font-style: normal;
+	}
+}
+
+
