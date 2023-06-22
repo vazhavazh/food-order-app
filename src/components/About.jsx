@@ -4,7 +4,7 @@ export const About = () => {
 	return (
 		<div className="bg-white">
 			<div className="p-24 grid grid-cols-2">
-				<h2 className="text-2xl  font-medium">About Us</h2>
+				<h2 className="text-2xl  font-medium text-center">About Us</h2>
 				<p className="text-lg">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
 					delectus voluptate doloribus vitae consequatur vero commodi iste!
@@ -18,7 +18,7 @@ export const About = () => {
 					<img
 						src={aboutImage}
 						alt=""
-						className=" object-cover"
+						className="object-cover"
 					/>
 				</div>
 			</div>
